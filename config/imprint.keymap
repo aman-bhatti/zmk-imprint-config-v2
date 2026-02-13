@@ -75,7 +75,7 @@
     input-processors = <&zip_xy_scaler 1 1>;
 
     scroller {
-        layers = <NAV>;
+        layers = <1>;
         input-processors =      
             // disable horizontal scroll
             <&zip_x_scaler 1 1000000>,
